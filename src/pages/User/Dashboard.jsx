@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Pencil } from "lucide-react";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../../context/authContext";
 
 export default function Dashboard() {
   const navigate = useNavigate();

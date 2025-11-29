@@ -5,11 +5,11 @@ import Main from "./pages/Main";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import SearchPage from "./pages/search";
-import DashboardPage from "./pages/Dashboard";
+import DashboardPage from "./pages/User/Dashboard";
 
-import ProtectedRoute from "./components/ProtectedRoute";
-import PublicRoute from "./components/PublicRoute";
-import AdminRoute from "./components/AdminRoute";
+import ProtectedRoute from "./route/ProtectedRoute";
+import PublicRoute from "./route/PublicRoute";
+import AdminRoute from "./route/AdminRoute";
 
 import AdminLayout from "./pages/Admin/AdminLayout";
 import Dashboard from "./pages/Admin/Dashboard";
